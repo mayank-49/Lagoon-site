@@ -10,7 +10,7 @@
     }
     scroll-behavior: smooth;
 }
-.m2-head, .m3-head{
+.m2-head, .m3-head, m6-content{
     max-width: 100%;
 }
 button:hover {
@@ -407,16 +407,17 @@ header img {
 
 .m6-content {
     height: 62%;
-    width: 100%;
+    width: 85rem;
+    max-width: 95%;
     /* background-color: yellow; */
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     margin-top: 1.5rem;
 }
 
 .m6-heading {
-    height: 100%;
+    height: 95%;
     width: 45%;
     /* background-color: green; */
     display: flex;
@@ -428,10 +429,10 @@ header img {
 
 .m6-heading-img {
     height: 7.25rem;
-    width: 88%;
+    width: 90%;
 }
 .m6-button{
-    width: 88%;
+    width: 90%;
     /* background-color: red; */
 }
 .m6-btn {
@@ -487,6 +488,7 @@ footer {
     color: #E2FB6C;
     text-decoration: none;
 }
+
 
 @media screen and (max-width:1380px){
     img{
