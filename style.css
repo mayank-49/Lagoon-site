@@ -498,8 +498,3 @@ footer {
         max-width: 91%;
     }
 }
-@media screen and (max-width:1080px){
-    body{
-        width: 100%;
-    }
-}
