@@ -18,7 +18,7 @@ button:hover {
 }
 header {
     height: 4rem;
-    width: 100vw;
+    width: 100%;
     /* background-color: yellow; */
     display: flex;
     align-items: center;
@@ -172,7 +172,7 @@ header img {
     flex-direction: column;
     align-items: center;
     margin-top: 6rem;
-    /* background-color: red; */
+    /* background-color: blue; */
 }
 
 .m2-head img {
@@ -231,10 +231,10 @@ header img {
 }
 
 .m3-head {
-    width: 85rem;
+    width: 83rem;
     /* background-color: royalblue; */
     height: 15.875rem;
-    margin-left: 2rem;
+    /* margin-left: 2rem; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -408,7 +408,7 @@ header img {
 .m6-content {
     height: 62%;
     width: 100%;
-    background-color: yellow;
+    /* background-color: yellow; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -418,7 +418,7 @@ header img {
 .m6-heading {
     height: 100%;
     width: 45%;
-    background-color: green;
+    /* background-color: green; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -487,22 +487,12 @@ footer {
     color: #E2FB6C;
     text-decoration: none;
 }
-@media screen and (max-width:1356px){
-   
-}
-@media screen and (max-width:1312px){
+
+@media screen and (max-width:1380px){
     img{
         max-width: 95%;
     }
     .m2-button , .m3-button{
         max-width: 91%;
-    }
-}
-@media screen and (max-width:837px){
-    img{
-        max-width: 95%;
-    }
-    .head-2, .head-3{
-        max-width: 95%;
     }
 }

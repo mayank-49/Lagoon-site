@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=0.2">
+    <meta name="viewport" content="width=1080px, initial-scale=0.9">
     <title>Early Access</title>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -72,38 +72,6 @@
             <a href="" class="footer-a">Say hello</a>
         </footer>
     </div>
-    <script>
-        function updateViewport() {
-            const viewport = document.querySelector("meta[name=viewport]");
-            if (window.innerWidth < 660) {
-                // For small screens, set a smaller initial scale
-                viewport.setAttribute("content", "width=device-width, initial-scale=0.2");
-            }else if(window.innerWidth < 777){
-                viewport.setAttribute("content", "width=device-width, initial-scale=0.4");
-            } 
-            else if(window.innerWidth < 850){
-                viewport.setAttribute("content", "width=device-width, initial-scale=0.5");
-            }else if(window.innerWidth < 1109){
-                viewport.setAttribute("content", "width=device-width, initial-scale=0.6");
-            }
-            else if(window.innerWidth < 1124){
-                viewport.setAttribute("content", "width=device-width, initial-scale=0.7");
-            }
-            else if(window.innerWidth < 1340){
-                viewport.setAttribute("content", "width=device-width, initial-scale=0.8");
-            }
-            else if(window.innerWidth < 1406){
-                viewport.setAttribute("content", "width=device-width, initial-scale=0.9");
-            } 
-            else {
-                // For larger screens, set the default scale
-                viewport.setAttribute("content", "width=device-width, initial-scale=1.0");
-            }
-        }
-        // Run the function when the page loads
-        window.onload = updateViewport;
-        // Run the function when the window is resized
-        window.onresize = updateViewport;
-    </script>
+    <script src="./index.js"></script>
 </body>
 </html>
